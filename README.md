@@ -1,8 +1,8 @@
-# Diagnostic Criteria of Alzheimer's Dementia 
+# Clinical Features Associated with Alzheimer's Dementia 
 
 ## Project Background
 
-The gradual onset and nature of Alzheimer's dementia (AD) impedes diagnosis. Cognitive impairment prevent patients from admitting their symptoms to clinicians. Given the lack of a cure, delayed AD diagnoses stress families and have costly repercussions. Early diagnoses may allow time to plan for future care and aid in saving money [(Fulton & Dolezel, 2019)](https://www.mdpi.com/2076-3425/9/9/212). I examined Open Access Series of Imaging Studies (OASIS) data using [OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) and [OASIS-2](https://sites.wustl.edu/oasisbrains/home/oasis-2/) to explore AD's relationship with various factors. The objective is to contribute analysis for decision making of AD diagnostic criteria. 
+Diagnosis of Alzheimer's dementia (AD) is difficult and time consuming. This is due to AD's silent, gradual onset and cognitive impairment. On average, the silent early stage lasts 3-11 years before cognition is noticably impaired [(Mayo Clinic)](https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-stages/art-20048448). By that time, cognitive impairment is already interfering with daily life. It exacerbates self-care and attending to one's own health. Given the lack of a cure, delayed AD diagnoses stress families and have costly repercussions. Early diagnoses may allow time to plan for future care and aid in saving money [(Fulton & Dolezel, 2019)](https://www.mdpi.com/2076-3425/9/9/212). I examined Open Access Series of Imaging Studies (OASIS) data using [OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) and [OASIS-2](https://sites.wustl.edu/oasisbrains/home/oasis-2/) to explore AD's relationship with various factors. The objective is to contribute analysis for decision making of AD diagnostic criteria. 
 
 ## Executive Summary 
 
