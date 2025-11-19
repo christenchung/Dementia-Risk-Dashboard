@@ -1,4 +1,4 @@
-# Clinical Features Associated with Alzheimer's Dementia 
+# Clinical Features of Alzheimer's Dementia 
 
 ## Project Background
 
