@@ -19,11 +19,37 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ## Insights
 
-### Trends 
+### Demographic and clinical trends  
+
+*	AD presence is strongly associated with age, MMSE performance, and brain volume.
+*	However, AD severity is best conveyed by MMSE and brain volume.
+*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD.
+  
+### MMSE in predicting dementia 
+
+* Worsening performance on MMSE by 1.5-7 points correlate with dementia. 
+*	Poor MMSE performance has the strongest correlation with dementia presence and degree.
+* Although normal MMSE score is considered to be 25 or greater, the average MMSE of patients with mild dementia was found to be greater than 25. Therefore, AD can be better predicted by examining MMSE score change rather than a certain numerical threshold. 
+* Amongst newly diagnosed patients, MMSE score decreased about -1.4 points. 
+* Decrease of 1.4-3 points could point towards future dementia onset, especially in asymptomatic patients who likely score above 25 on MMSE.
+
+### Brain volume in predicting dementia 
+
+* After MMSE, decreased brain volume has the next strongest correlation with dementia.
+* Average brain volume in early dementia patients was 0.73, which is significantly decreased compared to 0.77 in non-demented patients. 
 
 ## Recommendations 
 
+* Given that MMSEs are more easily performed compared to MRIs, using MMSE to predict dementia is more cost and time efficient. This is bolstered by the fact that MMSE performance has a stronger relationship to AD than brain volume.
+* Analysis of MMSE trends aids AD diagnosis, specifically with MMSE score decrease by 1.5-7 points. MMSE scores may demonstrate early AD in asymptomatic patients with MMSE greater than 25.  
+* To maintain consistency and precision, the clinician proctoring routine MMSEs patient should be constant for a certain patient.
+
 ## Assumptions and Caveats
+
+* Given the study of dementia, correlation studies omit control subjects who were missing values for education, SES, MMSE, and CDR. These subjects with missing values likely did not meet criteria for dementia given relative increased brain volume and young age. Further analysis that include missing values for control subjects would be helpful. 
+*	Evaluating MMSE may be subjective and dependent on the clinician. 
+*	There is a small sample of newly diagnosed dementia patients. Further longitudinal studies with larger sample size would be beneficial.
+*	Further analysis with a larger sample size is encouraged to better understand MMSE changes in dementia of asymptomatic and symptomatic patients. 
 
 ## Data Query and Visualization
 
