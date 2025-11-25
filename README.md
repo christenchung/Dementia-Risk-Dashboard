@@ -24,27 +24,36 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	AD presence is strongly associated with age, MMSE performance, and brain volume.
 *	However, AD severity is best conveyed by MMSE and brain volume.
 *	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD.
-<img width="800" height="476" alt="Screenshot 2025-11-24 at 4 30 58 PM" src="https://github.com/user-attachments/assets/30519d17-5f04-41a8-8407-5ccff518234b" />
+<img width="900" height="562" alt="Dementia correlations" src="https://github.com/user-attachments/assets/30519d17-5f04-41a8-8407-5ccff518234b" />
 
-### MMSE in predicting dementia 
+### MMSE best predicts AD 
 
 * Worsening performance on MMSE by 1.5-7 points correlate with dementia. 
 *	Poor MMSE performance has the strongest correlation with dementia presence and degree.
 * Although normal MMSE score is considered to be 25 or greater, the average MMSE of patients with mild dementia was found to be greater than 25. Therefore, AD can be better predicted by examining MMSE score change rather than a certain numerical threshold. 
 * Amongst newly diagnosed patients, MMSE score decreased about -1.4 points. 
 * Decrease of 1.4-3 points could point towards future dementia onset, especially in asymptomatic patients who likely score above 25 on MMSE.
-<img width="1307" height="211" alt="Screenshot 2025-11-24 at 4 34 01 PM" src="https://github.com/user-attachments/assets/40441c5f-d44a-4ba6-b468-e8e9cdb4d5fd" />
+* Analysis of MMSE trends aids AD diagnosis, specifically with MMSE score decrease by 1.5-7 points. MMSE scores may demonstrate early AD in asymptomatic patients with MMSE greater than 25. 
+* 67% of dementia patients had an MMSE score between 20-28.5.
+* 67% of dementia patients had an MMSE score decrease between 2-5. 
+ <img width="1306" height="207" alt="Screenshot 2025-11-24 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ed4ef1eb-92e3-4318-8f9f-5e2ca7fa0777" />
 
-### Brain volume in predicting dementia 
+### Brain volume is difficult 
 
 * After MMSE, decreased brain volume has the next strongest correlation with dementia.
-* Average brain volume in early dementia patients was 0.73, which is significantly decreased compared to 0.77 in non-demented patients. 
+* Average brain volume in early dementia patients was 0.73, which is significantly decreased compared to 0.77 in non-demented patients.
+* This is done with MRIs which is not as feasible than MMSEs. 
+
+### Age  
+
+* There is a proportional relationship between increasing age and dementia severity, though this is not as strong as MMSE and brain volume.
+* The average age of dementia patients was 76, with 67% of dementia patients are within ages 70-84. 
 
 ## Recommendations 
 
 * Given that MMSEs are more easily performed compared to MRIs, using MMSE to predict dementia is more cost and time efficient. This is bolstered by the fact that MMSE performance has a stronger relationship to AD than brain volume.
-* Analysis of MMSE trends aids AD diagnosis, specifically with MMSE score decrease by 1.5-7 points. MMSE scores may demonstrate early AD in asymptomatic patients with MMSE greater than 25.  
 * To maintain consistency and precision, the clinician proctoring routine MMSEs patient should be constant for a certain patient.
+* Quantifying findings into a "MMA" score may demonstrate AD. The proposed MMA score considers MMSE total, MMSE score change, and age in predicting AD.
 
 ## Assumptions and Caveats
 
