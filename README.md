@@ -25,8 +25,8 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	Cognitive function is easily measured at routine doctor appointments through a brief Mini-Mental Status Exam (MMSE). Poor MMSE performance is related to AD.
 *	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
 *	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
-*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD.
-<img width="1845" height="993" alt="Screenshot 2025-11-24 at 7 01 15 PM" src="https://github.com/user-attachments/assets/2658d6c7-5afd-4645-a58b-fffa8197c053" />
+*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. MMSE is more feasible than MRIs for brain volume. 
+<img width="1500" height="810" alt="Screenshot 2025-11-24 at 7 01 15 PM" src="https://github.com/user-attachments/assets/2658d6c7-5afd-4645-a58b-fffa8197c053" />
 
 ### MMSE trends best predict AD 
 
@@ -39,15 +39,15 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25. 
  <img width="1306" height="207" alt="Screenshot 2025-11-24 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ed4ef1eb-92e3-4318-8f9f-5e2ca7fa0777" />
 
-### Brain volume is difficult 
+### Brain volume  
 
-* After MMSE, decreased brain volume has the next strongest correlation with dementia.
-* Average brain volume in early dementia patients was 0.73, which is significantly decreased compared to 0.77 in non-demented patients.
-* This is done with MRIs which is not as feasible than MMSEs. 
+* In addition to MMSE, normalized brain volume can point towards dementia. 
+* Average brain volume in early dementia patients was 0.73. This is significantly decreased from 0.77, seen in non-demented patients.
+* This is done with MRIs which is not as feasible than performing MMSEs. 
 
 ### Age  
 
-* There is a proportional relationship between increasing age and dementia severity, though this is not as strong as MMSE and brain volume.
+* There is a proportional relationship between increasing age and dementia severity, though this is not as strong as dementia's relationship with MMSE and brain volume.
 * The average age of dementia patients was 76, with 67% of dementia patients are within ages 70-84. 
 
 ## Recommendations 
