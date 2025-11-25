@@ -21,21 +21,22 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ### Demographic and clinical trends  
 
-*	AD presence is strongly associated with age, MMSE performance, and brain volume.
-*	However, AD severity is best conveyed by MMSE and brain volume.
+*	Whether or not a patient has AD is strongly associated with age, cognitive function, and decreased brain volume. The severity of AD is strongly related to decreasing cognitive function and brain volume.
+*	Cognitive function is easily measured at routine doctor appointments through a brief Mini-Mental Status Exam (MMSE). Poor MMSE performance is related to AD.
+*	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
+*	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
 *	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD.
-<img width="900" height="562" alt="Dementia correlations" src="https://github.com/user-attachments/assets/30519d17-5f04-41a8-8407-5ccff518234b" />
+<img width="1845" height="993" alt="Screenshot 2025-11-24 at 7 01 15 PM" src="https://github.com/user-attachments/assets/2658d6c7-5afd-4645-a58b-fffa8197c053" />
 
-### MMSE best predicts AD 
+### MMSE trends best predict AD 
 
-* Worsening performance on MMSE by 1.5-7 points correlate with dementia. 
-*	Poor MMSE performance has the strongest correlation with dementia presence and degree.
-* Although normal MMSE score is considered to be 25 or greater, the average MMSE of patients with mild dementia was found to be greater than 25. Therefore, AD can be better predicted by examining MMSE score change rather than a certain numerical threshold. 
-* Amongst newly diagnosed patients, MMSE score decreased about -1.4 points. 
-* Decrease of 1.4-3 points could point towards future dementia onset, especially in asymptomatic patients who likely score above 25 on MMSE.
-* Analysis of MMSE trends aids AD diagnosis, specifically with MMSE score decrease by 1.5-7 points. MMSE scores may demonstrate early AD in asymptomatic patients with MMSE greater than 25. 
-* 67% of dementia patients had an MMSE score between 20-28.5.
-* 67% of dementia patients had an MMSE score decrease between 2-5. 
+*	Poor MMSE performance has the strongest correlation with dementia presence and degree. Scoring 1.5-7 points lower from prior MMSE correlates with dementia at any stage. 
+* Although a normal MMSE score is considered to be 25+ out of 30, patients with mild dementia scored greater than 25. There is a discrepancy in AD classification and MMSE score. Tunnel vision of numeric thresholds (such as MMSE score of 25+) ignores the asymptomatic, early stages of AD. Delaying diagnosis contribute to significant economic burden. 
+* Instead, early diagnosis can be facilitated by examining changes to MMSE performance, even if the score is considered normal (25 or above).
+* Early AD was diagnosed in patients, 90% of whom scored 25+ on the MMSE. 80% of the newly diagnosed did worse on the MMSE.
+* Those in the early stages of dementia had appearantly normal MMSE scores, but most were found to have worsened MMSE performance. Thus, it is worth looking at MMSE score change.
+* Most saw a score change of 0 to -3 points, with the average being -1.4 points. 
+* MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25. 
  <img width="1306" height="207" alt="Screenshot 2025-11-24 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ed4ef1eb-92e3-4318-8f9f-5e2ca7fa0777" />
 
 ### Brain volume is difficult 
