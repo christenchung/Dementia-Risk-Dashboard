@@ -26,7 +26,6 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
 *	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
 *	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. Performing MMSEs are more feasible than ordering repeat MRIs examining brain volume. 
-<img width="1239" height="736" alt="Screenshot 2025-11-24 at 4 30 58 PM" src="https://github.com/user-attachments/assets/4496ff75-323f-4724-bd2c-40135c76be0f" />
 
 ### MMSE 
 
@@ -44,8 +43,9 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * Brain atrophy disrupts neural connections, directly impairing cognition and exacerbating dementia severity.
 * Brain atrophy, or decreased brain volume, is associated with AD presence and severity.
 * Brain volume can predict presence or absence of AD as well as categorizing early versus late stages of AD. 
-* As AD advances, brain atrophy increases at an even faster rate. In early to moderate AD, there was 4-5% reduction in brain volume. Net reduction in severe AD was 9%. 
-<img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
+* As AD advances, brain atrophy increases at an even faster rate. In early to moderate AD, there was 4-5% reduction in brain volume. Net reduction in severe AD was 9%.
+    <img width="1074" height="680" alt="Screenshot 2025-11-25 at 11 16 24 AM" src="https://github.com/user-attachments/assets/56de9b69-d1f0-42c6-b707-7d3e3bde62d2" />
+    <img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
 
 
 ### Age  
