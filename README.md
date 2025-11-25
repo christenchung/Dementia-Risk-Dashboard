@@ -26,7 +26,7 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
 *	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
 *	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. Performing MMSEs are more feasible than ordering repeat MRIs examining brain volume. 
-<img width="1500" height="810" alt="Screenshot 2025-11-24 at 7 01 15 PM" src="https://github.com/user-attachments/assets/2658d6c7-5afd-4645-a58b-fffa8197c053" />
+<img width="1239" height="736" alt="Screenshot 2025-11-24 at 4 30 58 PM" src="https://github.com/user-attachments/assets/4496ff75-323f-4724-bd2c-40135c76be0f" />
 
 ### MMSE 
 
