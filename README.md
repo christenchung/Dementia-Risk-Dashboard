@@ -25,30 +25,34 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	Cognitive function is easily measured at routine doctor appointments through a brief Mini-Mental Status Exam (MMSE). Poor MMSE performance is related to AD.
 *	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
 *	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
-*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. MMSE is more feasible than MRIs for brain volume. 
+*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. Performing MMSEs are more feasible than ordering repeat MRIs examining brain volume. 
 <img width="1500" height="810" alt="Screenshot 2025-11-24 at 7 01 15 PM" src="https://github.com/user-attachments/assets/2658d6c7-5afd-4645-a58b-fffa8197c053" />
 
-### MMSE trends best predict AD 
+### MMSE 
 
-*	Poor MMSE performance has the strongest correlation with dementia presence and degree. Scoring 1.5-7 points lower from prior MMSE correlates with dementia at any stage. 
+*	Poor MMSE performance has the strongest correlation with dementia presence and degree (p < 0.05 for both). Scoring 1.5-7 points lower from prior MMSE correlates with dementia at any stage. 
 * Although a normal MMSE score is considered to be 25+ out of 30, patients with mild dementia scored greater than 25. There is a discrepancy in AD classification and MMSE score. Tunnel vision of numeric thresholds (such as MMSE score of 25+) ignores the asymptomatic, early stages of AD. Delaying diagnosis contribute to significant economic burden. 
 * Instead, early diagnosis can be facilitated by examining changes to MMSE performance, even if the score is considered normal (25 or above).
 * Early AD was diagnosed in patients, 90% of whom scored 25+ on the MMSE. 80% of the newly diagnosed did worse on the MMSE.
 * Those in the early stages of dementia had appearantly normal MMSE scores, but most were found to have worsened MMSE performance. Thus, it is worth looking at MMSE score change.
 * Most saw a score change of 0 to -3 points, with the average being -1.4 points. 
-* MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25. 
+* MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25.
+* In addition, MMSE can be used for AD classification between early versus later stages (p < 0.05). 
  <img width="1306" height="207" alt="Screenshot 2025-11-24 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ed4ef1eb-92e3-4318-8f9f-5e2ca7fa0777" />
 
 ### Brain volume  
 
-* In addition to MMSE, normalized brain volume can point towards dementia. 
-* Average brain volume in early dementia patients was 0.73. This is significantly decreased from 0.77, seen in non-demented patients.
-* This is done with MRIs which is not as feasible than performing MMSEs. 
+* Brain atrophy disrupts neural connections, impeding proper cognition. The direct effect of brain atrophy on cognition demonstrates AD and brain volume's correlational relationship. 
+* Like poor MMSE performance, decreased brain volume is correlated with both AD presence and severity (p < 0.05 for both).
+* Average brain volume in non-demented patients was 0.77. In early dementia, average brain volume was 0.73. Average atrophy of 4% was associated with early AD stages. Brain volume in moderate dementia was 0.71 on average, or 5% net loss of brain volume. Net brain atrophy of 9% led to severe dementia, or average brain volume of 0.68. 
+* Brain atrophy is measured through repeated MRIs, which is more costly and time-consuming than administering MMSEs and comparing performance changes.
+* Like MMSE, brain volume can be used to categorize early and late AD stages (p < 0.05).  
 
 ### Age  
 
 * There is a proportional relationship between increasing age and dementia severity, though this is not as strong as dementia's relationship with MMSE and brain volume.
-* The average age of dementia patients was 76, with 67% of dementia patients are within ages 70-84. 
+* While age weakly correlates with dementia diagnosis versus no dementia, age is not useful in classifying various AD stages (p > 0.05).
+* The average age of dementia patients was 76, with 67% of dementia patients are within ages 70-84. Given that r of age and AD presence is 0.3, those over the age of 76, with worsening MMSE performance, may likely have some degree of AD currently or in the future.
 
 ## Recommendations 
 
