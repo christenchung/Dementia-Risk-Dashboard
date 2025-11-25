@@ -38,15 +38,15 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * Most saw a score change of 0 to -3 points, with the average being -1.4 points. 
 * MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25.
 * In addition to predicting onset of AD, MMSE can also be used for AD classification between early versus later stages (p < 0.05). 
- <img width="1306" height="207" alt="Screenshot 2025-11-24 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ed4ef1eb-92e3-4318-8f9f-5e2ca7fa0777" />
 
-### Brain volume  
+### Brain volume 
 
-* Brain atrophy disrupts neural connections, impeding proper cognition. The direct effect of brain atrophy on cognition demonstrates AD and brain volume's correlational relationship. 
-* Like poor MMSE performance, decreased brain volume is correlated with both AD presence and severity (p < 0.05 for both).
-* Average brain volume in non-demented patients was 0.77. In early dementia, average brain volume was 0.73. Average atrophy of 4% was associated with early AD stages. Brain volume in moderate dementia was 0.71 on average, or 5% net loss of brain volume. Net brain atrophy of 9% led to severe dementia, or average brain volume of 0.68. 
-* Brain atrophy is measured through repeated MRIs, which is more costly and time-consuming than administering MMSEs and comparing performance changes.
-* Not only can brain atrophy be used to predict presence or absence of AD, but it could also be used to categorize early versus late AD stages (p < 0.05).  
+* Brain atrophy disrupts neural connections, directly impairing cognition and exacerbating dementia severity.
+* Brain atrophy, or decreased brain volume, is associated with AD presence and severity.
+* Brain volume can predict presence or absence of AD as well as categorizing early versus late stages of AD. 
+* As AD advances, brain atrophy increases at an even faster rate. In early to moderate AD, there was 4-5% reduction in brain volume. Net reduction in severe AD was 9%. 
+<img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
+
 
 ### Age  
 
