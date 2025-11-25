@@ -24,7 +24,8 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 *	AD presence is strongly associated with age, MMSE performance, and brain volume.
 *	However, AD severity is best conveyed by MMSE and brain volume.
 *	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD.
-  
+<img width="800" height="476" alt="Screenshot 2025-11-24 at 4 30 58 PM" src="https://github.com/user-attachments/assets/30519d17-5f04-41a8-8407-5ccff518234b" />
+
 ### MMSE in predicting dementia 
 
 * Worsening performance on MMSE by 1.5-7 points correlate with dementia. 
@@ -32,6 +33,7 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * Although normal MMSE score is considered to be 25 or greater, the average MMSE of patients with mild dementia was found to be greater than 25. Therefore, AD can be better predicted by examining MMSE score change rather than a certain numerical threshold. 
 * Amongst newly diagnosed patients, MMSE score decreased about -1.4 points. 
 * Decrease of 1.4-3 points could point towards future dementia onset, especially in asymptomatic patients who likely score above 25 on MMSE.
+<img width="1307" height="211" alt="Screenshot 2025-11-24 at 4 34 01 PM" src="https://github.com/user-attachments/assets/40441c5f-d44a-4ba6-b468-e8e9cdb4d5fd" />
 
 ### Brain volume in predicting dementia 
 
