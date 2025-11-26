@@ -53,7 +53,7 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * There is an association between increasing age and dementia.
 * Age can be used to assess AD presence but is not reliable assessing severity.
 * MMSE and brain volume are more reliable in disease stage classification.
-* Subjects with dementia had an average age of 76. Subjects over 76 years old with worsening MMSE scores likely have some degree of AD currently or in the future.
+* Subjects with dementia had an average age of 76. Subjects over 76 years old with worsening MMSE scores of 3 or more points likely have some degree of AD currently or in the future.
 
 ## Recommendations 
 
