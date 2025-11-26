@@ -29,30 +29,29 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ### MMSE 
 
-*	Poor MMSE performance has the strongest correlation with dementia presence and degree (p < 0.05 for both). Scoring 1.5-7 points lower from prior MMSE correlates with dementia at any stage. 
-* Although a normal MMSE score is considered to be 25+ out of 30, patients with mild dementia scored greater than 25. There is a discrepancy in AD classification and MMSE score. Tunnel vision of numeric thresholds (such as MMSE score of 25+) ignores the asymptomatic, early stages of AD. Delaying diagnosis contribute to significant economic burden. 
-* Instead, early diagnosis can be facilitated by examining changes to MMSE performance, even if the score is considered normal (25 or above).
-* Early AD was diagnosed in patients, 90% of whom scored 25+ on the MMSE. 80% of the newly diagnosed did worse on the MMSE.
-* Those in the early stages of dementia had appearantly normal MMSE scores, but most were found to have worsened MMSE performance. Thus, it is worth looking at MMSE score change.
-* Most saw a score change of 0 to -3 points, with the average being -1.4 points. 
-* MMSE score trends can demonstrate early AD in asymptomatic patients with MMSE greater than 25.
-* In addition to predicting onset of AD, MMSE can also be used for AD classification between early versus later stages (p < 0.05). 
+* MMSEs (Mini-Mental Status Exams) assess dementia and can easily be done by health care providers.
+* Dementia was most associated with how subjects did on MMSEs. When comparing scores of past MMSEs, doing worse was associated with future dementia diagnosis, even if the subject had no apparent cognitive impairment at that time. 
+* MMSE change predicts future AD more reliably than focusing on a 'normal' MMSE score. Those that developed AD were found to do worse on subsequent MMSEs, despite still scoring 'normally'. 
+* Worsening MMSE performance is associated with increasing AD severity.
+* Change in MMSE from about 1-3 points may predict AD or its exacerbation.
+* MMSE trends can be used to in AD prediction and gauging severity, especially in those appearing asymptomatic.
+* Further analysis of MMSE change as a tool for early diagnosis could possibly save patients, families, and health care systems from further economic burden.
 
 ### Brain volume 
 
-* Brain atrophy disrupts neural connections, directly impairing cognition and exacerbating dementia severity.
-* Brain atrophy, or decreased brain volume, is associated with AD presence and severity.
-* Brain volume can predict presence or absence of AD as well as categorizing early versus late stages of AD. 
-* As AD advances, brain atrophy increases at an even faster rate. In early to moderate AD, there was 4-5% reduction in brain volume. Net reduction in severe AD was 9%.
+* In AD, brain degeneration leads to decreased brain volume. 
+* Reduction in brain volume is associated with worsening dementia. In later stages, volume loss occurs at a faster rate.
+* Earlier stages have a 4-5% reduction in brain volume. As disease progresses, brain volume decreased by 9%.
+* Brain volume can be used to in AD prediction and gauging severity, similar to MMSE.
     <img width="1074" height="680" alt="Screenshot 2025-11-25 at 11 16 24 AM" src="https://github.com/user-attachments/assets/56de9b69-d1f0-42c6-b707-7d3e3bde62d2" />
     <img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
 
 
 ### Age  
 
-* There is a proportional relationship between increasing age and dementia severity, though this is not as strong as dementia's relationship with MMSE and brain volume.
-* While age weakly correlates with dementia diagnosis versus no dementia, age is not useful in classifying various AD stages (p > 0.05).
-* The average age of dementia patients was 76, with 67% of dementia patients are within ages 70-84. Given that r of age and AD presence is 0.3, those over the age of 76, with worsening MMSE performance, may likely have some degree of AD currently or in the future.
+* There is an association between increasing age and dementia.
+* Age may be used to assess AD presence but not severity. MMSE and brain volume are more reliable in disease stage classification.
+* Subjects with dementia had an average age of 76. Subjects over 76 years old with worsening MMSE scores may likely have some degree of AD currently or in the future.
 
 ## Recommendations 
 
