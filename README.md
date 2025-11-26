@@ -65,7 +65,7 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 ## Assumptions and Caveats
 * Both datasets disproportionately represented:
     * nondemented and early dementia significantly more than advanced disease.
-    * subjects with decreased clinical dementia ratings more than higher. 
+    * subjects with normal cognition more than decreased cognition (baseline CDR). 
     * females more than males.
 * Longitudinal values of advanced AD were likely limited due to death. 
 * The cross-sectional data was missing values for 200 young subjects that the study used as controls. They likely did not meet dementia criteria given age and brain volume.  Since these subjects are assumed to be nondemented, correlational studies omitted these subjects. This may have affected data interpretation. Study a larger sample size with complete data, even in non-demented subjects, is recommended. 
