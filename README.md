@@ -42,6 +42,7 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * In AD, brain degeneration leads to decreased brain volume. 
 * Reduction in brain volume is associated with worsening dementia. In later stages, volume loss occurs at a faster rate.
 * Earlier stages have a 4-5% reduction in brain volume. As disease progresses, brain volume decreased by 9%.
+* Quantifying brain volume changes may offer insight on disease staging.
 * Brain volume can be used to in AD prediction and gauging severity, similar to MMSE.
     <img width="1074" height="680" alt="Screenshot 2025-11-25 at 11 16 24 AM" src="https://github.com/user-attachments/assets/56de9b69-d1f0-42c6-b707-7d3e3bde62d2" />
     <img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
