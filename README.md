@@ -56,12 +56,18 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ## Recommendations 
 
-* Given that MMSEs are more easily performed compared to MRIs, using MMSE to predict dementia is more cost and time efficient. This is bolstered by the fact that MMSE performance has a stronger relationship to AD than brain volume.
-* To maintain consistency and precision, the clinician proctoring routine MMSEs patient should be constant for a certain patient.
+* While both brain volume and MMSEs are useful in Alzheimer's Dementia analysis, MMSEs present a cost-effective, time saving option if MRIs are inaccessible.
+* Clinicians performing MMSEs should be constant to minimize variability for a patient's sequential visits.
+* Further analysis is needed to address representation gaps in OASIS-1 and -2 (see [Assumptions and Caveats](#assumptions-and-caveats)). Specifically, studies should include a larger sample size that adequately represents males and subjects with advanced AD. 
 * Quantifying findings into a "MMA" score may demonstrate AD. The proposed MMA score considers MMSE total, MMSE score change, and age in predicting AD.
 
 ## Assumptions and Caveats
-* Both datasets disproportionately represented nondemented and early dementia significantly more than advanced disease. Further analysis using a larger sample that also represents advanced disease is needed to better understand relationships.
+* Both datasets disproportionately represented:
+    * nondemented and early dementia significantly more than advanced disease.
+    * subjects with decreased clinical dementia ratings more than higher. 
+    * females more than males.
+* Longitudinal values of advanced AD were likely limited due to death. 
+* Further analysis using a larger sample that also represents advanced disease is needed to better understand relationships.
 * The cross-sectional data was missing values for 200 young subjects that the study used as controls. They likely did not meet dementia criteria given age and brain volume.  Since these subjects are assumed to be nondemented, correlational studies omitted these subjects. This may have affected data interpretation. Study a larger sample size with complete data, even in non-demented subjects, is recommended. 
 * Evaluating MMSE may be subjective and dependent on clinician.
 
