@@ -61,11 +61,9 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 * Quantifying findings into a "MMA" score may demonstrate AD. The proposed MMA score considers MMSE total, MMSE score change, and age in predicting AD.
 
 ## Assumptions and Caveats
-
-* Given the study of dementia, correlation studies omit control subjects who were missing values for education, SES, MMSE, and CDR. These subjects with missing values likely did not meet criteria for dementia given relative increased brain volume and young age. Further analysis that include missing values for control subjects would be helpful. 
-*	Evaluating MMSE may be subjective and dependent on the clinician. 
-*	There is a small sample of newly diagnosed dementia patients. Further longitudinal studies with larger sample size would be beneficial.
-*	Further analysis with a larger sample size is encouraged to better understand MMSE changes in dementia of asymptomatic and symptomatic patients. 
+* The longitudinal data set disproportionately represents non-dementia and early dementia more than later stages. Correlational studies may improve using additional longitudinal data, especially more data on late dementia.
+* The cross-sectional data set had several missing values for 200 young subjects that the study used as controls. They likely did not meet dementia criteria given age and brain volume. Correlational studies proceeded by omitting these subjects. This may be justified since subjects do not have dementia. However, data interpretation may be affected. It would be beneficial to extend studies to a larger sample size with complete data, even in non-demented subjects.
+* Evaluating MMSE may be subjective and dependent on clinician.
 
 ## Data Query and Visualization
 
