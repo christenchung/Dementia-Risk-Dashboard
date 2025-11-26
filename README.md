@@ -31,7 +31,8 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 * MMSEs (Mini-Mental Status Exams) assess dementia and can easily be done by health care providers.
 * Dementia was most associated with how subjects did on MMSEs. When comparing scores of past MMSEs, doing worse was associated with future dementia diagnosis, even if the subject had no apparent cognitive impairment at that time. 
-* MMSE change predicts future AD more reliably than focusing on a 'normal' MMSE score. Those that developed AD were found to do worse on subsequent MMSEs, despite still scoring 'normally'. 
+* AD analysis could improve by broadening focus from today's score to look at score trends.
+* Those that developed AD were found to do worse on subsequent MMSEs despite scoring 'normally'. 
 * Worsening MMSE performance is associated with increasing AD severity.
 * Change in MMSE from about 1-3 points may predict AD or its exacerbation.
 * MMSE trends can be used to in AD prediction and gauging severity, especially in those appearing asymptomatic.
