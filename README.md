@@ -39,9 +39,11 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ### Brain volume 
 
-* In AD, brain degeneration leads to decreased brain volume. 
-* Reduction in brain volume is associated with worsening dementia. In later stages, volume loss occurs at a faster rate.
-* Earlier stages have a 4-5% reduction in brain volume. As disease progresses, brain volume decreased by 9%.
+* In AD, brain degeneration leads to decreased brain volume measured from MRI. 
+* Reduction in brain volume is associated with clinical diagnosis of dementia. In later stages, volume loss occurs at a faster rate.
+* Newly diagnosed subjects had a 3% reduction in brain volume.
+* In early stages of AD, there was 4-5% reduction in brain volume. In severe AD, brain volume decreased by 9%.
+* Both newly diagnosed and demented subjects had similar atrophy rates, which were almost twice as fast as normal aging subjects. MRI revealed worsening atophy even though the patient  MMSE scores.
 * Quantifying brain volume changes may offer insight on disease staging.
 * Brain volume can be used to in AD prediction and gauging severity, similar to MMSE.
     <img width="1074" height="680" alt="Screenshot 2025-11-25 at 11 16 24 AM" src="https://github.com/user-attachments/assets/56de9b69-d1f0-42c6-b707-7d3e3bde62d2" />
