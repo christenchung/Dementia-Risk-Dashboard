@@ -1,4 +1,4 @@
-# Clinical Features of Alzheimer's Dementia 
+# Clinical and Quantitative Analysis of Alzheimer's Dementia 
 
 ## Table of Contents
 
