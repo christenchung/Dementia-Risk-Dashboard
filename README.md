@@ -21,11 +21,11 @@ Alzheimer's dementia (AD) is the sixth leading cause of death in the U.S., the m
 
 ### Demographic and clinical trends  
 
-*	Whether or not a patient has AD is associated with cognitive function, decreased brain volume, and age. The severity of AD is strongly related to decreasing cognitive function and brain volume.
-*	Cognitive function is easily measured at routine doctor appointments through a brief Mini-Mental Status Exam (MMSE). Poor MMSE performance is related to AD.
-*	Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
-*	Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
-*	Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. Performing MMSEs are more feasible than ordering repeat MRIs examining brain volume. 
+* AD diagnosis is associated with cognitive function, decreased brain volume, and age. The severity of AD is strongly related to decreasing cognitive function and brain volume.
+* Cognitive function is easily measured at routine doctor appointments through a brief Mini-Mental Status Exam (MMSE). Poor MMSE performance is related to AD.
+* Age is still related to AD severity, but to a lesser extent than factors directly related to the disease process, such as brain volume and cognitive function. People can age without developing AD. 
+* Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
+* Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. Performing MMSEs are more feasible than ordering repeat MRIs examining brain volume. 
 
 ### MMSE 
 
