@@ -1,0 +1,116 @@
+## statistical analysis
+
+'''
+    summary(mri)
+'''
+
+## MMSE scores in early dementia versus non-demented (p-value)
+
+'''
+    data$CDR_group <- ifelse(data$CDR == 0, "NoDementia", "Dementia")
+    t_test_result <- t.test(MMSE ~ CDR_group, data = data)
+    t_test_result$p.value
+'''
+
+## age between early dementia vs. non-demented (p value)
+
+'''
+    data$CDR_group <- ifelse(data$CDR == 0, "NoDementia", "Dementia")
+    t_test_result <- t.test(Age ~ CDR_group, data = data)
+    t_test_result$p.value
+'''
+
+## education between early dementia vs. non-demented (p value)
+
+'''
+    data$CDR_group <- ifelse(data$CDR == 0, "NoDementia", "Dementia")
+    t_test_result <- t.test(Educ ~ CDR_group, data = data)
+    t_test_result$p.value
+'''
+
+## SES between early dementia vs. non-demented (p value)
+
+'''
+    data$CDR_group <- ifelse(data$CDR == 0, "NoDementia", "Dementia")
+    t_test_result <- t.test(SES ~ CDR_group, data = data)
+    t_test_result$p.value
+'''
+
+## Brain volume in early dementia vs. non-demented
+
+'''
+data$CDR_group <- ifelse(data$CDR == 0, "NoDementia", "Dementia")
+t_test_result <- t.test(nWBV ~ CDR_group, data = data)
+t_test_result$p.value
+'''
+
+## Boxplot of MMSE by dementia severity
+
+'''
+    boxplot(MMSE ~ factor(CDR), data = data,
+             main = "MMSE by CDR group",
+             xlab = "CDR", ylab = "MMSE")
+'''
+
+## Boxplot of brain volume by dementia severity
+
+'''
+    boxplot(nWBV ~ factor(CDR), data = data,
+             main = "nWBV by CDR group",
+             xlab = "CDR", ylab = "nWBV")
+'''
+
+## MMSE in early/mild dementia versus moderate/severe dementia (p-value)
+
+'''
+data$CDR_group <- ifelse(data$CDR >= 0.5 & data$CDR < 1,
+                         "EarlyMild",
+                         ifelse(data$CDR >= 1 & data$CDR <=3,
+                            "ModerateSevere", NA))
+t_test_result <- t.test(MMSE ~ CDR_group, data = data)
+t_test_result$p.value
+'''
+
+## Age in early/mild dementia versus moderate/severe dementia (p-value)
+
+'''
+data$CDR_group <- ifelse(data$CDR >= 0.5 & data$CDR < 1,
+                         "EarlyMild",
+                         ifelse(data$CDR >= 1 & data$CDR <=3,
+                            "ModerateSevere", NA))
+t_test_result <- t.test(Age ~ CDR_group, data = data)
+t_test_result$p.value
+'''
+
+## Education in early/mild dementia versus moderate/severe dementia (p-value)
+
+'''
+data$CDR_group <- ifelse(data$CDR >= 0.5 & data$CDR < 1,
+                         "EarlyMild",
+                         ifelse(data$CDR >= 1 & data$CDR <=3,
+                            "ModerateSevere", NA))
+t_test_result <- t.test(Educ ~ CDR_group, data = data)
+t_test_result$p.value
+'''
+
+## SES in early/mild dementia versus moderate/severe dementia (p-value)
+
+'''
+data$CDR_group <- ifelse(data$CDR >= 0.5 & data$CDR < 1,
+                         "EarlyMild",
+                         ifelse(data$CDR >= 1 & data$CDR <=3,
+                            "ModerateSevere", NA))
+t_test_result <- t.test(SES ~ CDR_group, data = data)
+t_test_result$p.value
+'''
+
+## brain volume in early/mild dementia versus moderate/severe dementia (p-value)
+
+'''
+data$CDR_group <- ifelse(data$CDR >= 0.5 & data$CDR < 1,
+                         "EarlyMild",
+                         ifelse(data$CDR >= 1 & data$CDR <=3,
+                            "ModerateSevere", NA))
+t_test_result <- t.test(nWBV ~ CDR_group, data = data)
+t_test_result$p.value
+'''
