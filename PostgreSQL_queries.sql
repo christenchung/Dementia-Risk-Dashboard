@@ -1,5 +1,5 @@
 
------------------------OASIS-1 CROSS SECTIONAL QUERIES
+----------------------------------------------------------------------------- OASIS-1 CROSS SECTIONAL QUERIES -----------------------------------------------------------------------------
 
 --Dementia trend by demographic, MMSE, and brain volume averages--
 SELECT
@@ -304,7 +304,151 @@ FROM "cte_avg"
 GROUP BY "avg MMSE", "avg nWBV";
 
 
- -----------------------OASIS-2 LONGITUDINAL ANALYSIS QUERIES
+
+--Correlation (r-value) of clinical dementia severity (CDR) with the following--
+    SELECT
+        ROUND(CORR("Age", "CDR")::numeric, 3) AS "age",
+        ROUND(CORR("Educ", "CDR")::numeric, 3) AS "education",
+        ROUND(CORR("SES", "CDR")::numeric, 3) AS "SES",
+        ROUND(CORR("nWBV", "CDR")::numeric, 3) AS "brain volume",
+        ROUND(CORR("MMSE", "CDR")::numeric, 3) AS "MMSE"
+    FROM t_cross
+    WHERE "Age" IS NOT NULL
+    AND "Educ" IS NOT NULL
+    AND "SES" IS NOT NULL
+    AND "nWBV" IS NOT NULL
+    AND "MMSE" IS NOT NULL;
+
+--Correlation (r-value) of brain volume with the following--
+    SELECT
+        ROUND(CORR("Age", "nWBV")::numeric, 3) AS "age",
+        ROUND(CORR("Educ", "nWBV")::numeric, 3) AS "education",
+        ROUND(CORR("SES", "nWBV")::numeric, 3) AS "SES",
+        ROUND(CORR("CDR", "nWBV")::numeric, 3) AS "CDR",
+        ROUND(CORR("MMSE", "nWBV")::numeric, 3) AS "MMSE"
+    FROM t_cross
+    WHERE "Age" IS NOT NULL
+        AND "Educ" IS NOT NULL
+        AND "SES" IS NOT NULL
+        AND "nWBV" IS NOT NULL
+        AND "MMSE" IS NOT NULL;
+
+--Correlation (r-value) of MMSE with the following--
+    SELECT
+        ROUND(CORR("Age", "MMSE")::numeric, 3) AS "age",
+        ROUND(CORR("Educ", "MMSE")::numeric, 3) AS "education",
+        ROUND(CORR("SES", "MMSE")::numeric, 3) AS "SES",
+        ROUND(CORR("CDR", "MMSE")::numeric, 3) AS "CDR",
+        ROUND(CORR("nWBV", "MMSE")::numeric, 3) AS "nWBV"
+    FROM t_cross
+    WHERE "Age" IS NOT NULL
+        AND "Educ" IS NOT NULL
+        AND "SES" IS NOT NULL
+        AND "nWBV" IS NOT NULL
+        AND "MMSE" IS NOT NULL;
+
+-- statistical analysis of brain volume --
+    SELECT
+        ROUND(AVG("nWBV"), 2) AS mean,
+        ROUND(STDDEV_SAMP("nWBV"), 2) AS stddev,
+        ROUND(COUNT(*), 2) AS n
+    FROM "t_cross"
+    WHERE "Age" IS NOT NULL
+        AND "Educ" IS NOT NULL
+        AND "SES" IS NOT NULL
+        AND "nWBV" IS NOT NULL
+        AND "MMSE" IS NOT NULL;
+
+-- Average brain volume of demented patients --
+    SELECT
+        CAST(ROUND(AVG("nWBV"), 2) AS REAL)
+    FROM "t_cross"
+    WHERE "CDR" >= 0.5;
+
+
+--Age and MMSE in dementia patients--
+SELECT
+    ROUND(AVG("Age"), 2) AS "Age mean",
+    STDDEV_SAMP("Age") AS "Age Std Dev",
+    ROUND(AVG("MMSE"), 2) AS "MMSE mean",
+    STDDEV_SAMP("MMSE") AS "MMSE Std Dev",
+    ROUND(COUNT(*), 2) AS n
+FROM "t_cross"
+WHERE "CDR" >= '0.5';
+
+--Age and MMSE in non-dementia patients--
+SELECT
+    ROUND(AVG("Age"), 2) AS "Age mean",
+    STDDEV_SAMP("Age") AS "Age Std Dev",
+    ROUND(AVG("MMSE"), 2) AS "MMSE mean",
+    STDDEV_SAMP("MMSE") AS "MMSE Std Dev",
+    ROUND(COUNT(*), 2) AS n
+FROM "t_cross"
+WHERE "CDR" = '0';
+
+
+
+--Factors by dementia severity--
+SELECT
+    ROUND("CDR", 2) AS "cdr",
+    ROUND(AVG("Age"), 2) AS "age avg",
+    ROUND(AVG("MMSE"), 2) AS "mmse avg",
+    ROUND(AVG("nWBV"), 2) AS "nWBV avg"
+FROM "t_cross"
+GROUP BY "CDR"
+ORDER BY "CDR";
+
+
+--Distribution of CDR amongst OASIS-1--
+WITH "cte1" AS (
+SELECT
+    COUNT(CASE WHEN("CDR" = 0) THEN 1 END) AS "no dementia",
+    COUNT(CASE WHEN("CDR" = 0.5) THEN 1 END) AS "mild",
+    COUNT(CASE WHEN("CDR" = 1) THEN 1 END) AS "moderate",
+    COUNT(CASE WHEN("CDR" = 2) THEN 1 END) AS "severe",
+    COUNT(*) AS "all"
+FROM "t_cross"
+)
+
+SELECT
+    ROUND(("no dementia" * 100)/"all", 2) AS "%no_dementia",
+    ROUND(("mild" * 100)/"all", 2) AS "%mild",
+    ROUND(("moderate" * 100)/"all", 2) AS "%moderate",
+    ROUND(("severe" * 100)/"all", 2) AS "%severe"
+FROM "cte1";
+
+--Distribution of gender amongst OASIS-1--
+WITH "cte1" AS (
+SELECT
+    COUNT(CASE WHEN("M/F" = 'F') THEN 1 END) AS "female",
+    COUNT(CASE WHEN("M/F" = 'M') THEN 1 END) AS "male",
+    COUNT(*) AS "all"
+FROM "t_cross"
+)
+
+SELECT
+    ROUND(("female" * 100)/"all", 2) AS "%female",
+    ROUND(("male" * 100)/"all", 2) AS "%male"
+FROM "cte1";
+
+
+--statistical analysis of cross sectional brain volume--
+SELECT
+    ROUND(AVG(CASE WHEN "CDR" = '0' THEN "nWBV" END), 2) AS "noAD_nWBVmean",
+    ROUND(STDDEV_SAMP(CASE WHEN "CDR" = '0' THEN "nWBV" END), 2) AS "noAD_stddev",
+    COUNT(CASE WHEN "CDR" = '0' THEN "nWBV" END) AS "noAD_n",
+    ROUND(AVG(CASE WHEN "CDR" = '0.5' THEN "nWBV" END), 2) AS "mildAD_nWBVmean",
+    ROUND(STDDEV_SAMP(CASE WHEN "CDR" = '0.5' THEN "nWBV" END), 2) AS "mildAD_stddev",
+    COUNT(CASE WHEN "CDR" = '0.5' THEN "nWBV" END) AS "mildAD_n",
+    ROUND(AVG(CASE WHEN "CDR" = '1' THEN "nWBV" END), 2) AS "modAD_nWBVmean",
+    ROUND(STDDEV_SAMP(CASE WHEN "CDR" = '1' THEN "nWBV" END), 2) AS "modAD_stddev",
+    COUNT(CASE WHEN "CDR" = '1' THEN "nWBV" END) AS "modAD_n",
+    ROUND(AVG(CASE WHEN "CDR" = '2' THEN "nWBV" END), 2) AS "sevAD_nWBVmean",
+    ROUND(STDDEV_SAMP(CASE WHEN "CDR" = '2' THEN "nWBV" END), 2) AS "sevAD_stddev",
+    COUNT(CASE WHEN "CDR" = '2' THEN "nWBV" END) AS "sevAD_n"
+FROM "t_cross";
+
+ ----------------------------------------------------------------------------- OASIS-2 LONGITUDINAL ANALYSIS QUERIES -----------------------------------------------------------------------------
 
 -- MMSE score change and early dementia diagnoses in asymptomatic patients --
     WITH "rank" AS (
