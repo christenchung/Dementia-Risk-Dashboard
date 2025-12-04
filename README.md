@@ -1,4 +1,4 @@
-# Clinical and Quantitative Analysis of Alzheimer's Dementia 
+# Dementia Risk Dashboard for Clinician Support
 
 ## Table of Contents
 
