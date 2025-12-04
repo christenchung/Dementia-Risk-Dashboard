@@ -1,4 +1,4 @@
-# Dementia Risk Dashboard for Clinician Support
+# Dementia Risk Dashboard 
 
 ## Table of Contents
 
