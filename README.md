@@ -60,12 +60,16 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 
 ## Recommendations 
 
-* While both brain volume and MMSEs are useful in Alzheimer's Dementia analysis, MMSEs present a cost-effective, time saving option if MRIs are inaccessible.
-* Clinicians performing MMSEs should be constant to minimize variability for a patient's sequential visits.
-* Further analysis is needed to address representation gaps in OASIS-1 and -2 (see [Assumptions and Caveats](#assumptions-and-caveats)). Specifically, studies should include a larger sample size that adequately represents males and subjects with advanced AD. 
-* Quantifying findings into a "MMA" score may demonstrate AD. The proposed MMA score considers MMSE total, MMSE score change, and age in predicting AD.
+* The same clinicians should perform MMSEs for a given patient in order to minimize variability.
+* Further analysis is needed to address representation gaps in OASIS-1 and -2 (see [Assumptions and Caveats](#assumptions-and-caveats)). Specifically, studies should include a larger sample size that adequately represent males and subjects with advanced AD. 
+* While both brain volume and MMSEs are useful in Alzheimer's Dementia analysis, MMSEs may present a cost-effective, time saving option if MRIs are inaccessible.
+* If available, repeat MRIs can be used with MMSEs to aid diagnosis, especially of early asymptomatic disease. 
+    * [This dementia dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is intended for clinician use to aid diagnostic decision making. It considers clinical and quantitative change using MMSE and MRI values, respectively.
+    *  The dashboard flags patients with worsening MMSE performance and/or decreased brain volume. This includes those without AD history. If flagged, the dashboard recommends further workup for possible disease onset.  
+       <img width="1377" height="857" alt="Screenshot 2025-12-08 at 11 43 49 AM" src="https://github.com/user-attachments/assets/e3d413ed-3c71-46bb-8059-b6d23a519e1d" />
 
 ## Assumptions and Caveats
+
 * Both datasets disproportionately represented:
     * nondemented and early dementia significantly more than advanced disease.
     * subjects with normal cognition more than decreased cognition (baseline CDR). 
