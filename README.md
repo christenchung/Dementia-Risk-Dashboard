@@ -7,15 +7,20 @@
 - [Insights](#insights) <br>
 - [Recommendations](#recommendations) <br>
 - [Assumptions and Caveats](#assumptions-and-caveats) <br>
-- [Data Query and Visualization](#data-query-and-visualization)
 
 ## Project Background
 
-Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. [(Skaria, 2022)](https://www.ajmc.com/view/the-economic-and-societal-burden-of-alzheimer-disease-managed-care-considerations). Cognitive decline significantly impedes quality of life. Diagnosis is difficult and takes time. Only 50% of those with AD are diagnosed. It comes on very silently and gradually. These early, asymptomatic stages often last 3-11 years. [(Mayo Clinic)](https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-stages/art-20048448). Even after noticing symptoms a decade into silent disease, confirmatory testing is invasive, time consuming, and not readily available [(Skaria, 2022)](https://www.ajmc.com/view/the-economic-and-societal-burden-of-alzheimer-disease-managed-care-considerations). AD often reveals itself after significant disease progression. Early AD diagnoses reduce future costs from otherwise worsened AD. This provides patients and families time to start treatment, address risk factors, enroll in clinical trials, and to plan for long-term care. During this time, cognition can be improved by targeting intellectual engagement, exercise, tobacco smoking, eating habits, diabetes, hypertension, and body mass index. Early AD diagnosis is cost-effective for patients, families, and Medicare/Medicaid, as demonstrated by several studies. Early AD diagnosis was found to reduce annual patient cost by 9-14%, or $4,300 per patient per year. By 2060, AD in Americans is projected to double, tripling health care costs to greater than $1 trillion. Therefore, cost reduction, that could be achieved by early diagnosis, is significant in alleviating economic burden. By exploring Open Access Series of Imaging Studies (OASIS) data, [OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) and [OASIS-2](https://sites.wustl.edu/oasisbrains/home/oasis-2/), I explore the various stages of AD in order to find signs that may predict its silent early stage.
+Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. [(Skaria, 2022)](https://www.ajmc.com/view/the-economic-and-societal-burden-of-alzheimer-disease-managed-care-considerations). Cognitive decline significantly impedes quality of life. AD diagnosis is difficult and takes time. Only 50% of those with AD are diagnosed. It comes on very silently and gradually. These early, asymptomatic stages often last 3-11 years. [(Mayo Clinic)](https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-stages/art-20048448). AD often reveals itself after significant disease progression. When one finally notices symptoms a decade into silent disease, confirmatory tests are invasive, time consuming, and not readily available [(Skaria, 2022)](https://www.ajmc.com/view/the-economic-and-societal-burden-of-alzheimer-disease-managed-care-considerations). Early AD diagnoses reduce future costs and improve quality of life. This provides patients and families time to start treatment, address risk factors, enroll in clinical trials, and to plan for long-term care. Early AD diagnosis is cost-effective for patients, families, and Medicare/Medicaid, as demonstrated by several studies. Early AD diagnosis was found to reduce annual patient cost by 9-14%, or $4,300 per patient per year. This is significant, given that AD costs will triple and be greater than $1 trillion by 2060, when AD in Americans is projected to double. Early diagnosis is a key tool in alleviating economic burden. By exploring Open Access Series of Imaging Studies (OASIS) data, [OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) and [OASIS-2](https://sites.wustl.edu/oasisbrains/home/oasis-2/), I explore the various stages of AD in order to find signs that may predict its silent early stage. I applied my analysis in creating a [Tableau Dementia Dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that identifies high risk patients through MRI imaging and clinical cognitive assessments. This patient tracker flags high risk patients on a personally created patient sample dataset. 
 
 ## Executive Summary 
 
-
+* **Problem**:  Due to the silent, early stages of AD, diagnosis when patients are already symptomatic are typical. However, late diagnosis exacerbates quality of life, economic burden, and the healthcare system.
+  
+* **Methodology and Data**:  I used PostgreSQL and Python to clean, transform, and appropriately managed missing values and outliers in 1200+ cross-sectional and longitudinal patient visits. With SQL, Python, and R, I performed exploratory data analysis (EDA) to reveal statistically significant correlational relationships using t-tests, regression lines, and confidence intervals. Applying the conclusions onto Tableau, I created a Dementia Dashboard for decision support. To test this, I created a sample of patients with MRI and cognitive data similar to OASIS studies. The Patient Tracker flags patients with early AD risk.
+  
+* **Key Findings**:  2 factors were significantly associated with any AD, including asymptomatic early AD: (1) cognitive function and (2) brain volume. Worsening cognitive function and decreased brain volume was associated with AD despite being asymptomatic.
+  
+* **Recommendations**:  Extend studies to a larger sample size in order to refine [Dementia Dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) flagging parameters, with a future goal to implement dashboard for early diagnosis. 
 
 ## Insights
 
@@ -47,9 +52,6 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Both newly diagnosed and demented subjects had similar atrophy rates, which were almost twice as fast as normal aging subjects. MRI revealed worsening atophy even though the patient  MMSE scores.
 * Quantifying brain volume changes may offer insight on disease staging.
 * Brain volume can be used to in AD prediction and gauging severity, similar to MMSE.
-    <img width="1074" height="680" alt="Screenshot 2025-11-25 at 11 16 24 AM" src="https://github.com/user-attachments/assets/56de9b69-d1f0-42c6-b707-7d3e3bde62d2" />
-    <img width="1686" height="519" alt="Screenshot 2025-11-25 at 9 03 36 AM" src="https://github.com/user-attachments/assets/3e9b14b8-4492-46d5-9892-cf7d362cddd0" />
-
 
 ### Age  
 
@@ -57,6 +59,7 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Age can be used to assess AD presence but is not reliable assessing severity.
 * MMSE and brain volume are more reliable in disease stage classification.
 * Subjects with dementia had an average age of 76. Subjects over 76 years old with worsening MMSE scores of 3 or more points likely have some degree of AD currently or in the future.
+      <img width="1435" height="860" alt="Screenshot 2025-12-10 at 8 09 17 AM" src="https://github.com/user-attachments/assets/575f3e03-5f2b-4bd0-9838-7ad460ef2cbb" />
 
 ## Recommendations 
 
@@ -64,7 +67,7 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Further analysis is needed to address representation gaps in OASIS-1 and -2 (see [Assumptions and Caveats](#assumptions-and-caveats)). Specifically, studies should include a larger sample size that adequately represent males and subjects with advanced AD. 
 * While both brain volume and MMSEs are useful in Alzheimer's Dementia analysis, MMSEs may present a cost-effective, time saving option if MRIs are inaccessible.
 * If available, repeat MRIs can be used with MMSEs to aid diagnosis, especially of early asymptomatic disease. 
-    * [This dementia dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is intended for clinician use to aid diagnostic decision making. It considers clinical and quantitative change using MMSE and MRI values, respectively.
+    * [This Tableau dementia dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is intended for clinician use to aid diagnostic decision making. It considers clinical and quantitative change using MMSE and MRI values, respectively.
     *  The dashboard flags patients with worsening MMSE performance and/or decreased brain volume. This includes those without AD history. If flagged, the dashboard recommends further workup for possible disease onset.  
        <img width="1377" height="857" alt="Screenshot 2025-12-08 at 11 43 49 AM" src="https://github.com/user-attachments/assets/e3d413ed-3c71-46bb-8059-b6d23a519e1d" />
 
@@ -77,6 +80,4 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Longitudinal values of advanced AD were likely limited due to death. 
 * The cross-sectional data was missing values for 200 young subjects that the study used as controls. They likely did not meet dementia criteria given age and brain volume.  Since these subjects are assumed to be nondemented, correlational studies omitted these subjects. This may have affected data interpretation. Study a larger sample size with complete data, even in non-demented subjects, is recommended. 
 * Evaluating MMSE may be subjective and dependent on clinician.
-
-## Data Query and Visualization
 
