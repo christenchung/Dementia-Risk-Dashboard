@@ -59,7 +59,7 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Age can be used to assess AD presence but is not reliable assessing severity.
 * MMSE and brain volume are more reliable in disease stage classification.
 * Subjects with dementia had an average age of 76. Subjects over 76 years old with worsening MMSE scores of 3 or more points likely have some degree of AD currently or in the future.
-      <img width="1435" height="860" alt="Screenshot 2025-12-10 at 8 09 17 AM" src="https://github.com/user-attachments/assets/575f3e03-5f2b-4bd0-9838-7ad460ef2cbb" />
+  <img width="1435" height="860" alt="Screenshot 2025-12-10 at 8 09 17 AM" src="https://github.com/user-attachments/assets/575f3e03-5f2b-4bd0-9838-7ad460ef2cbb" />
 
 ## Recommendations 
 
@@ -69,7 +69,7 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * If available, repeat MRIs can be used with MMSEs to aid diagnosis, especially of early asymptomatic disease. 
     * [This Tableau dementia dashboard](https://public.tableau.com/views/AlzheimersDementiaPatientTracker/Dashboard12?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is intended for clinician use to aid diagnostic decision making. It considers clinical and quantitative change using MMSE and MRI values, respectively.
     *  The dashboard flags patients with worsening MMSE performance and/or decreased brain volume. This includes those without AD history. If flagged, the dashboard recommends further workup for possible disease onset.  
-       <img width="1377" height="857" alt="Screenshot 2025-12-08 at 11 43 49 AM" src="https://github.com/user-attachments/assets/e3d413ed-3c71-46bb-8059-b6d23a519e1d" />
+   <img width="1377" height="857" alt="Screenshot 2025-12-08 at 11 43 49 AM" src="https://github.com/user-attachments/assets/e3d413ed-3c71-46bb-8059-b6d23a519e1d" />
 
 ## Assumptions and Caveats
 
