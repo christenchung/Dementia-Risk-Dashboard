@@ -5,6 +5,10 @@
 - [Project Background](#project-background) <br>
 - [Executive Summary](#executive-summary) <br>
 - [Insights](#insights) <br>
+  - [Demographic and clinical trends](#demographic-and-clinical-trends) <br>
+  - [Cognition](#cognition) <br>
+  - [Brain Volume](#brain-volume) <br>
+  - [Age](#age) <br>
 - [Recommendations](#recommendations) <br>
 - [Assumptions and Caveats](#assumptions-and-caveats) <br>
 
@@ -32,7 +36,7 @@ Alzheimer's dementia (AD) is incurable and a leading cause of death in the U.S. 
 * Decreasing brain volume signifies brain atrophy, which causes cognitive decline. This manifests as poor MMSE performance.
 * Clinicians can utilize MMSE changes and brain volume as early warning signs of AD. 
 
-### MMSE 
+### Cognition 
 
 * MMSEs (Mini-Mental Status Exams) assess dementia and can easily be done by health care providers.
 * Dementia was most associated with how subjects did on MMSEs. When comparing scores of past MMSEs, doing worse was associated with future dementia diagnosis, even if the subject had no apparent cognitive impairment at that time. 
